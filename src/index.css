@@ -24,3 +24,24 @@ header {
   width: 150px;
   height: 90%;
 }
+
+.form-control {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px;
+}
+
+.form-input {
+  border-radius: 5px;
+  border: 1px solid #444;
+  padding: 5px;
+}
+
+.form-button {
+  grid-column: 1 / -1;
+  border-radius: 5px;
+}
+
+.main {
+  padding: 40px;
+}
